@@ -1,0 +1,95 @@
+---
+name: Yahor Dunayeu
+email: yadunayeu@gmail.com
+website: https://dunayeu.me/
+location: Prague, Czech republic
+dob: 07.02.1996
+photo: https://dunayeu.me/profile/full.jpg
+intro: I am a software developer at the beginning of my career.
+  My goal is to get huge real-world experience and build a professional career in this field. I am self-motivated and eager to learn. I'm most familiar with __TypeScript__, __React__, __Next.js__, __Azure DevOps__. I'm passionate about programming and eager to learn.
+about: |
+  Hello! I'm Yahor. I'm a software developer. It's both a job and an occupation. I'm passionate about software, open-source technologies, and  __do stuff__. 
+  
+  
+  My main focus is to develop complex front-end applications and build a professional career in this field.
+  
+  
+  I'm familiar with TypeScript, React, Next.js, Azure DevOps. I'm passionate about programming and eager to learn.
+skills:
+  - name: Front-end development
+    note: I've spent all of my career doing this. Naturally, I consider this is my top skill.
+    level: 0.8
+    tech:
+      - TypeScript
+      - React
+      - Redux
+      - SCSS
+      - Webpack
+  - name: Automation and DevOps
+    note: Took a part of implementation CI/CD pipeline in Actum Digital (yachting.com - project). As well configure a pipeline for pet project wit GitHub Actions.
+    level: 0.4
+    tech:
+      - Docker
+      - Azure
+      - Circle CI
+      - GitHub Actions
+  - name: Mobile development
+    note: Very basic understanding, but I'd like to learn more.
+    level: 0.2
+    tech:
+      - React Native
+
+projects:
+  - name: dunayeu.me
+    link:
+    note: This very website you've found this resume on. Intended to be a showcase of my technical skills. Built using React, TypeScript, JSS, and Next.js.
+  - name: command-executor
+    link: https://github.com/stupendusmagneficus/command-executer
+    note: Command executor it is utility application mainly for converting video.
+  - name: courses store
+    link: https://github.com/stupendusmagneficus/courses-store-frontend
+    note: Here we have pet project. Built using React, TypeScript, and Next.js.
+
+experience:
+  - role: Front-end Developer
+    company: Actum Digital
+    from: 2022-01
+    to: 2022-06
+    note: I have risen to the opportunity to become the leader of the Front-end smaller team in the current project.
+    highlights:
+      - Was responsible of reworking core business product and developing three small projects that are the eco-system of our core product.
+      - Make web application SEO friendly and familiar with GoogleTag Manager.
+      - Mentoring less experienced colleagues and provide code review.
+      - Took a part of implementation CI/CD pipeline,optimization of Webpack configuration.
+      - Also made use of ESLint, Prettier and Husky to improve the quality
+        of our code.
+      - Work with lots of various technology.I have learned how to manage Azure DevOps, CMS Kentico Experience.
+
+
+  - role: Front-end Developer
+    company: Actum Digital
+    from: 2021-04
+    to: 2022-01
+    note: I have worked on a project offering yacht rental. I used WordPress extensively, developing a custom theme for it, and integrating it with other tools.
+    highlights:
+      - I work as a productive and positive team member to design,code, test, report, and debug operations.
+      - Managed front-end development and workflow processes. (Project was developed on React with Flow typing).
+      - Successfully identified, diagnosed and fixed web application problems.
+      - Helped to achieve a consistent look and visual theme across the web by promoting uniform fonts, formatting, images, layout, creating new components and improving existing ones.
+      - Worked to assess competing web sites in regards to content,look and feel.
+
+  - role: Freelance Developer
+    from: 2020-03
+    to: 2021-04
+    note: I spent a lot of time working on smaller web dev projects. An occasional website for a friend of a friend.
+    highlights:
+      - Learned the basics of lots of non-development skills. Learning how to manage my time and simple project management was invaluable in my professional career later.
+      - Worked with lots of various technologies. I've learned how to manage DNS and Linux servers and worked on applications written in PHP, JavaScript, and Python.
+
+languages:
+  - name: English
+    proficiency: Proficient
+  - name: Czech
+    proficiency: Full Professional
+  - name: Russian
+    proficiency: Native

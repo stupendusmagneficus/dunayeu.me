@@ -1,0 +1,104 @@
+@media only screen {
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Serif'), local('PTSerif-Regular'), url(/fonts/PTSerif-Regular.ttf);
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: local('PT Serif Bold'), local('PTSerif-Bold'), url(/fonts/PTSerif-Bold.ttf);
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 400;
+    src: local('PT Serif Italic'), local('PTSerif-RegularItalic'), url(/fonts/PTSerif-RegularItalic.ttf);
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 700;
+    src: local('PT Serif BoldItalic'), local('PTSerif-BoldItalic'), url(/fonts/PTSerif-BoldItalic.ttf);
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(/fonts/Poppins-Regular.ttf);
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Poppins Italic'), local('Poppins-Italic'), url(/fonts/Poppins-Italic.ttf);
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(/fonts/Poppins-SemiBold.ttf);
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Poppins SemiBoldItalic'), local('Poppins-SemiBoldItalic'), url(/fonts/Poppins-SemiBoldItalic.ttf);
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Poppins BlackItalic'), local('Poppins-BlackItalic'), url(/fonts/Poppins-BlackItalic.ttf);
+    font-display: swap;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: PT Serif, serif;
+  line-height: 1.5;
+}
+
+body, html, #__next {
+  height: 100%;
+}
+
+code, kbd, samp {
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+@media only print {
+  html {
+    zoom: 0.80;
+    letter-spacing: 0.5px;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
