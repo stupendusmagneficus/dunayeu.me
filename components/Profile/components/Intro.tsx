@@ -98,11 +98,11 @@ export const Intro: FunctionComponent<IntroProps> = ({
         <div className={classes.intro}>{children}</div>
         <div className={classes.photo}>
           <a
-            href="/profile/avatar.jpg"
+            href="/profile/avatar.webp"
             target="_blank"
             className={classes.photoLink}
           >
-            <img src="/profile/avatar.jpg" alt="A photo of me" />
+            <img src="/profile/avatar.webp" alt="A photo of me" />
           </a>
         </div>
       </div>

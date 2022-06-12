@@ -33,7 +33,6 @@ const useStyles = createUseStyles({
       top: "0",
       left: "0",
       position: "absolute",
-      background: "rgba(0, 0, 0, 0.4)",
     },
 
     color: "rgb(232, 230, 227)",

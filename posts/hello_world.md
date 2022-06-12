@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2022-06-12
-image: /profile/avatar.jpg
+image: /img/hello-world.webp
 mood: excited
 ---
 First post about this website, blog and what I'm going to do with them.

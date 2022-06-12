@@ -4,7 +4,7 @@ import NextHead from "next/head";
 const TITLE = "dunayeu.me";
 const DESCRIPTION =
   "My personal island on the interweb. Resume, blog and a showcase of my technical abilities.";
-const IMAGE = "https://dunayeu.me/profile/avatar.jpg";
+const IMAGE = "https://dunayeu.me/profile/avatar.webp";
 
 interface HeadProps {
   title?: string;
