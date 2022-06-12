@@ -49,9 +49,9 @@ const useStyles = createUseStyles({
     fontFamily: ({ theme }) => theme.font.title,
   },
   element: ({ flip }) => ({
-    backgroundImage: "url(/home/zizkov.jpg)",
-    "@media only screen and (min-width: 1080px)": {
-      backgroundImage: "url(/home/zizkov@2x.jpg)",
+    backgroundImage: "url(/home/cool-background-mobile.svg)",
+    "@media only screen and (min-width: 576px)": {
+      backgroundImage: "url(/home/cool-background.svg)",
     },
     transform: flip ? "rotate(180deg)" : null,
     backgroundRepeat: "no-repeat",

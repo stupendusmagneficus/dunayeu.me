@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { createUseStyles, useTheme } from "react-jss";
 import ReactMarkdown, { ReactMarkdownProps } from "react-markdown";
 import { PostElementProps } from "@/components/Post";

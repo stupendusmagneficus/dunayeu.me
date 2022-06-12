@@ -17,6 +17,7 @@ ${resume.intro}
 
 * Date of birth: ${resume.dob}
 * Email: <${resume.email}>
+* Phone: ${resume.phone}
 * Website: <${resume.website}>
 * Location: ${resume.location}
 `;

@@ -1,6 +1,6 @@
 ---
 title: Higher-Order Components in React
-date: 2017-10-21
+date: 2022-02-12
 tags:
 - Programming
 - Functional programming
@@ -207,6 +207,7 @@ const withState = (
           [stateUpdaterName]: this.updateStateValue,
         }}
       />
+      ) 
     }
   }
 
@@ -394,7 +395,7 @@ export {
 };
 ```
 
-I'm really lazy and I didn't implement all the lifecycle methods - but you will forgive me this, won't you? Apart from this, the HOC interface is exactly the same. There is no need to do anything in `ShoppingList.js`, just replace the imported module. You can try the complete example on [GitHub](https://github.com/iakovmarkov/react-inferno-example) yourself.
+I'm really lazy and I didn't implement all the lifecycle methods - but you will forgive me this, won't you? Apart from this, the HOC interface is exactly the same. There is no need to do anything in `ShoppingList.js`, just replace the imported module.
 
 As I've said in the beginning, the practical application of this is very limited. However, it's a great demonstration of why I prefer functional approach to programming complex applications now. Composing loosely coupled functions together enables you to replace them with relative ease. Refactoring such code is much easier as well, because modules are not dependant on one another and can be swapped out, given their APIs are compatible.
 

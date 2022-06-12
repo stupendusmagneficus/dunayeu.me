@@ -27,6 +27,7 @@ declare module "@/public/dunayeu_yahor_resume.yml" {
   export default resume;
 
   export interface Resume {
+    phone: string;
     name: string;
     email: string;
     website: string;

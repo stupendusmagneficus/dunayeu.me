@@ -1,7 +1,7 @@
 FROM ubuntu:bionic
-LABEL maintainer="Iakov <markov@iakov.me>"
+LABEL maintainer="Dunayeu <dunayeu@yahor.me>"
 
-RUN useradd -u 2001 -U -m -d /opt/www iakov
+RUN useradd -u 2001 -U -m -d /opt/www yahor
 
 RUN apt update && apt install -y curl gnupg git &&\
     curl -sL https://deb.nodesource.com/setup_11.x | bash - &&\

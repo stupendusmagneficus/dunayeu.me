@@ -98,7 +98,7 @@ export const Intro: FunctionComponent<IntroProps> = ({
         <div className={classes.intro}>{children}</div>
         <div className={classes.photo}>
           <a
-            href="/profile/full.jpg"
+            href="/profile/avatar.jpg"
             target="_blank"
             className={classes.photoLink}
           >

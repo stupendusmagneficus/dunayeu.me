@@ -1,6 +1,6 @@
 ---
 title: Funcitonal Programming in React
-date: 2017-05-01
+date: 2022-03-12
 tags:
 - Programming
 - Functional programming

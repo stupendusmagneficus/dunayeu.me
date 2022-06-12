@@ -1,6 +1,6 @@
 ---
 title: Reusable Higher-Order Components
-date: 2018-12-02
+date: 2022-01-12
 tags:
 - Programming
 - Functional programming
