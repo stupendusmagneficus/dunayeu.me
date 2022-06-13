@@ -102,7 +102,7 @@ export const Intro: FunctionComponent<IntroProps> = ({
             target="_blank"
             className={classes.photoLink}
           >
-            <img src="/profile/avatar.webp" alt="A photo of me" />
+            <img src="/avatar.webp" alt="A photo of me" />
           </a>
         </div>
       </div>
