@@ -1,9 +1,10 @@
 import { createUseStyles, useTheme } from "react-jss";
 import * as r from "ramda";
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 
 interface GlitchProps {
   flip?: boolean;
+  useAnimation?: boolean;
 }
 
 const BLEND_COLORS = ["transparent", "#af4949"];
@@ -47,7 +48,7 @@ const useStyles = createUseStyles({
     padding: ({ theme }) => `${theme.size.lg}px`,
     fontFamily: ({ theme }) => theme.font.title,
   },
-  element: ({ flip }) => ({
+  element: ({ flip, useAnimation }) => ({
     backgroundImage: "url(/home/cool-background-mobile.svg)",
     "@media only screen and (min-width: 576px)": {
       backgroundImage: "url(/home/cool-background.svg)",
@@ -67,25 +68,25 @@ const useStyles = createUseStyles({
       animationDuration: ANIMATION_TIME,
       animationDelay: ANIMATION_DELAY,
       animationTimingFunction: "linear",
-      animationIterationCount: "infinite",
+      animationIterationCount: useAnimation && "infinite",
     },
 
     "&:nth-child(2)": {
       backgroundColor: BLEND_COLORS[0],
       backgroundBlendMode: BLEND_MODES[0],
-      animationName: "$anim-3",
+      animationName: useAnimation && "$anim-3",
     },
 
     "&:nth-child(4)": {
       backgroundColor: BLEND_COLORS[0],
       backgroundBlendMode: BLEND_MODES[1],
-      animationName: "$anim-4",
+      animationName: useAnimation && "$anim-4",
     },
 
     "&:nth-child(5)": {
       backgroundColor: BLEND_COLORS[1],
       backgroundBlendMode: BLEND_MODES[1],
-      animationName: "$flash",
+      animationName: useAnimation && "$flash",
     },
   }),
   "@keyframes flash": {
@@ -216,9 +217,9 @@ const useStyles = createUseStyles({
   },
 });
 
-const Glitch: FunctionComponent<GlitchProps> = ({ children, flip }) => {
+const Glitch: FunctionComponent<GlitchProps> = ({ children, flip = false, useAnimation= true }) => {
   const theme = useTheme();
-  const classes = useStyles({ theme, flip });
+  const classes = useStyles({ theme, flip, useAnimation });
 
   const glitches = r.pipe(
     r.range(0),

@@ -1,8 +1,9 @@
 import { createUseStyles } from "react-jss";
 import Head from "@/components/Head";
-import Glitch from "@/components/Glitch";
 import Nav from "@/components/Nav";
 import { NextPage } from "next";
+import React from "react";
+import Glitch from "@/components/Glitch";
 
 const LINKS = [
   { to: "/about", el: "About" },
@@ -24,7 +25,7 @@ const HomePage: NextPage = () => {
   return (
     <>
       <Head />
-      <Glitch>
+      <Glitch useAnimation={false}>
         <h1 className={classes.text}>
           Surf it easy
         </h1>
