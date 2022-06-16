@@ -1,6 +1,6 @@
 # dunayeu.me
 
-Code for my personal webiste, [dunayeu.me](https://dunayeu.me/)
+Code for my personal webiste, [dunayeu.me](https://dunayeu.com/)
 
 ## Credits
 
