@@ -1,38 +1,36 @@
-import { createUseStyles } from "react-jss";
+import Markdown from "@/components/Markdown";
+import Layout from "@/components/Layout";
+import Profile from "@/components/Profile";
+import Intro from "@/components/Profile/components/Intro";
+import Icon from "@/components/Icon";
+import resume from "@/public/dunayeu_yahor_resume.yml";
 import Head from "@/components/Head";
-import Nav from "@/components/Nav";
 import { NextPage } from "next";
-import React from "react";
-import Glitch from "@/components/Glitch";
 
-const LINKS = [
-  { to: "/about", el: "About" },
-  { to: "/blog", el: "Blog" },
-  { href: "mailto:yadunayeu@gmail.com", el: "Contact" },
+const links = [
+  {
+    href: "/dunayeu_yahor_resume.yml",
+    title: "Download resume as YML",
+    el: <Icon icon="document-file-yml" />,
+  },
+  {
+    href: "/dunayeu_yahor_resume.pdf",
+    title: "Download resume as PDF",
+    el: <Icon icon="document-file-pdf" />,
+  },
 ];
 
-const useStyles = createUseStyles({
-  text: {
-    lineHeight: 1.5,
-    fontStyle: "italic",
-    fontWeight: 900,
-  },
-});
-
-const HomePage: NextPage = () => {
-  const classes = useStyles();
-
+const AboutPage: NextPage = () => {
   return (
-    <>
-      <Head />
-      <Glitch useAnimation={false}>
-        <h1 className={classes.text}>
-          Surf it easy
-        </h1>
-        <Nav links={LINKS} noHover />
-      </Glitch>
-    </>
+    <Layout>
+      <Head title="About" />
+      <Profile profile={resume}>
+        <Intro title="About me" links={links}>
+          <Markdown source={resume.about} />
+        </Intro>
+      </Profile>
+    </Layout>
   );
 };
 
-export default HomePage;
+export default AboutPage;

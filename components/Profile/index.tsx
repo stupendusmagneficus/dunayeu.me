@@ -106,6 +106,16 @@ const Profile: FunctionComponent<ProfileProps> = ({ profile, children }) => {
               <ItemTitle>
                 <ItemName>{skill.name}</ItemName>
                 <ItemInfo>
+                  {skill.link && (
+                    <a
+                      href={skill.link}
+                      style={{ marginRight: 8 }}
+                      className={classes.projectLink}
+                      target="_blank"
+                    >
+                      <Icon icon="new-tab" />
+                    </a>
+                  )}
                   <SkillLevel level={skill.level} />
                 </ItemInfo>
               </ItemTitle>
@@ -117,6 +127,39 @@ const Profile: FunctionComponent<ProfileProps> = ({ profile, children }) => {
                   ))}
                 </div>
               )}
+            </Item>
+          );
+        })}
+      </Section>
+
+      <Section title="Certifications">
+        {profile.certifications.map((certification) => {
+          return (
+            <Item key={certification.name}>
+              <ItemTitle oneline>
+                <ItemName>{certification.name}</ItemName>
+                <ItemInfo>
+                  <>
+                    <PrintOnly>
+                      <a
+                        href={certification.link}
+                        className={classes.projectURL}
+                        target="_blank"
+                      >
+                        {certification.link}
+                      </a>
+                    </PrintOnly>
+                    <a
+                      href={certification.link}
+                      className={classes.projectLink}
+                      target="_blank"
+                    >
+                      <Icon icon="new-tab" />
+                    </a>
+                  </>
+                </ItemInfo>
+              </ItemTitle>
+              <ItemText>{certification.note}</ItemText>
             </Item>
           );
         })}

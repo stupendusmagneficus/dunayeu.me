@@ -1,16 +1,8 @@
 # dunayeu.me
 
-Code for my personal webiste, [dunayeu.me](https://dunayeu.com/)
-
-## Credits
-
-Glitch effect code inspired by [Alain Barrios](https://codepen.io/AlainBarrios/pen/OEOKgm)
-
-## TODO
+Code for my personal website, [dunayeu.me](https://dunayeu.com/)
 
 Features:
-* [x] Main page with glitchy image
-* [ ] Main page glitch - customize code
 * [x] About me page 
 * [x] Profile in YML
 * [x] About me generated from YML
@@ -24,10 +16,10 @@ Features:
 * [x] Post content: code with synthax highlight
 * [ ] Blog: pagination
 * [ ] Blog: search by tag with autocomplete
-* [x] Contact: link to email
+* [x] Contact: link to linkedin
 
-Technicalties:
-* [x] Deployment to Zeit
-* [x] Docker image build
-* [ ] Docker deployment
-* [x] TypeScript, prettier, tslint
+Technicalities:
+* [x] TypeScript, prettier, tslint, husky
+* [x] Styled components
+* [x] Static site generation
+* [x] CI/CD

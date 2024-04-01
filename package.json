@@ -3,18 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build-resume": "node ./build-resume.js public/dunayeu_yahor_resume_built.pdf",
+    "build-resume": "node ./build-resume.js public/dunayeu_yahor_resume.pdf",
     "format": "prettier ./*.{js,ts,tsx} components/**/*.{ts,tsx} pages/**/*.{ts,tsx} --write",
     "lint": "tslint --project tsconfig.json components/**/*.{ts,tsx} pages/**/*.{ts,tsx}",
     "dev": "cross-env NODE_ENV=development node index.js",
     "build": "next build",
     "export": "rimraf out && next build && next export",
     "start": "cross-env NODE_ENV=production node index.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format && yarn lint && git add ."
-    }
   },
   "dependencies": {
     "@types/node": "^13.5.0",

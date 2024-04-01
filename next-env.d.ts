@@ -38,6 +38,7 @@ declare module "@/public/dunayeu_yahor_resume.yml" {
     intro: string;
     skills: Skill[];
     projects: Project[];
+    certifications: Project[];
     experience: Experience[];
     languages: Language[];
   }
@@ -67,5 +68,6 @@ declare module "@/public/dunayeu_yahor_resume.yml" {
     note: string;
     level: number;
     tech?: string[];
+    link?: string;
   }
 }

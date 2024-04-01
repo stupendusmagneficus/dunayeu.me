@@ -69,6 +69,7 @@ const Nav: FunctionComponent<NavProps> = ({ links, noHover }) => {
               {({ isActive }) => (
                 <a
                   href={href || to}
+                  target={href ? "_blank" : undefined}
                   className={`${classes.link} ${isActive && "isActive"}`}
                 >
                   {el}

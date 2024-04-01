@@ -4,10 +4,12 @@ import Nav from "@/components/Nav";
 import { getHeaderStyles } from "@/utils/theme";
 
 const LINKS = [
-  { to: "/", el: "Home" },
-  { to: "/about", el: "About" },
+  { to: "/", el: "About" },
   { to: "/blog", el: "Blog" },
-  { href: "mailto:yadunayeu@gmail.com", el: "Contact" },
+  {
+    href: "https://www.linkedin.com/in/yahor-dunayeu-375855203/",
+    el: "Contact",
+  },
 ];
 
 const useStyles = createUseStyles({

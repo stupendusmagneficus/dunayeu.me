@@ -9,25 +9,37 @@ photo: https://dunayeu.me/profile/full.jpg
 intro: I am a software developer at the beginning of my career.
   My goal is to get huge real-world experience and build a professional career in this field. I am self-motivated and eager to learn. I'm most familiar with __TypeScript__, __React__, __Next.js__, __Azure DevOps__. I'm passionate about programming and eager to learn.
 about: |
-  Hello! I'm Yahor. I'm a Front-end developer. It's both a job and an occupation. I'm passionate about software, open-source technologies, and  __do stuff__. 
-  
-  
+  Hello! My name is Yahor, and I'm a Front-end developer. For me, this role is more than just a job—it's a calling. I'm deeply passionate about software development, open-source technologies, and continuously exploring new challenges.
+    
   My main focus is to develop complex applications and build a professional career in this field.
   
-  
-  I'm familiar with TypeScript, React, Next.js, Azure DevOps. I'm passionate about programming and eager to learn.
+  I have a solid background in TypeScript, React, and Next.js, and I've also worked with Azure DevOps. This gives me a good set of skills for handling various web development tasks. I love programming and I'm always eager to learn more, which helps me keep up with new technology trends.
 skills:
   - name: Front-end development
-    note: I've spent all of my short career doing this. Naturally, I consider this is my top skill.
-    level: 0.6
+    note: I've spent all of my career doing this. Naturally, I consider this is my top skill.
+    level: 0.8
     tech:
-      - TypeScript
+      - Next.js
       - React
+      - TypeScript
       - Redux
-      - SCSS
+      - MobX
       - Webpack
+      - Vite
+      - Sitecore JSS
+      - Styled Components
+      - Tailwind CSS
+      - SCSS
+      - Jest
+      - Flow
+  - name: Web Accessibility
+    link: https://www.youtube.com/watch?v=IRx6z4POPrk&ab_channel=ACTUMDigital
+    note: I specialize in web accessibility, focusing on conducting thorough audits and enhancing website accessibility. My work involves identifying and resolving accessibility barriers to ensure digital spaces are welcoming for all users, including those with disabilities. Beyond practical improvements, I actively contribute to the broader conversation on digital inclusivity through educational YouTube videos. These efforts aim to guide and inspire developers and designers towards creating more accessible web environments. 
+    level: 0.7
+    tech:
+      - WCAG
   - name: Automation and DevOps
-    note: Took a part of implementation CI/CD pipeline in Actum Digital (yachting.com - project). As well configure a pipeline for pet project wit GitHub Actions.
+    note: I have configured and implemented Azure CI/CD pipelines for several projects, ensuring streamlined development and deployment processes. Additionally, I have maintained systems using the CircleCI approach, demonstrating adaptability and proficiency in various CI/CD methodologies. For personal projects, I have also successfully set up pipelines using GitHub Actions, showcasing my ability to leverage different tools to optimize workflow efficiency.
     level: 0.4
     tech:
       - Docker
@@ -44,37 +56,52 @@ projects:
   - name: dunayeu.me
     link: https://github.com/stupendusmagneficus/dunayeu.me
     note: This very website you've found this resume on. Intended to be a showcase of my technical skills. Built using React, TypeScript, JSS, and Next.js.
-  - name: command-executor
+  - name: Command executor
     link: https://github.com/stupendusmagneficus/command-executer
     note: Command executor it is utility application mainly for converting video.
-  - name: courses store
+  - name: Courses store
     link: https://github.com/stupendusmagneficus/courses-store-frontend
-    note: Here we got pet project. Built using React, TypeScript, and Next.js.
+    note: For my personal project, I utilized React, TypeScript, and Next.js, leveraging these technologies to creat a robust and scalable application.
+
+certifications:
+  - name: AZ-900 Microsoft Azure Fundamentals
+    link: https://learn.microsoft.com/en-us/users/YahorDunayeu-3247/credentials/48987D08536CDED
+    note: This certification provides a foundational understanding of cloud services, specifically those offered by Microsoft Azure. It covers basic cloud concepts, Azure services, Azure workloads, security and privacy in Azure, as well as Azure pricing and support.
+  - name: IAAP Web Accessibility Specialist (WAS) Certification
+    link: https://drive.google.com/file/d/1bfXmTOzknXZ3HIy1wb9RvS0kkW8AmOYm/view
+    note: Aimed at individuals who are responsible for designing, developing, or managing web content, this certification validates expertise in web accessibility in accordance with international standards. It demonstrates a deep understanding of accessibility principles and the ability to implement solutions for digital inclusivity.
 
 experience:
   - role: Front-end Developer
-    company: Actum Digital
-    from: 2022-01
+    company: ACTUM Digital
+    from: 2022-09
     to:
-    note: I have risen to the opportunity to become the leader of the Front-end smaller team in the current project.
+    note: In my new role as a Front-end Developer at Actum Digital, I've transitioned into a broader arena, joining a vast team of accomplished professionals. I've quickly become a pivotal member of the front-end team, contributing significantly to our projects' success.
     highlights:
-      - Was responsible of reworking core business product and developing three small projects that are the eco-system of our core product.
-      - Make web application SEO friendly and familiar with GoogleTag Manager.
-      - Mentoring less experienced colleagues and provide code review.
-      - Took a part of implementation CI/CD pipeline, optimization of Webpack configuration.
-      - Also made use of ESLint, Prettier and Husky to improve the quality
-        of our code.
-      - Work with lots of various technology. I have learned how to manage Azure DevOps, CMS Kentico Experience.
+      - Translating business requirements into common features, monitoring and addressing issues through the Azure portal, and enhancing SEO and web accessibility.
+      - Led the shift towards a modern front-end technology stack, enhancing our development process and product quality by incorporating the latest tools and frameworks, and guiding the team through the transition for optimal integration and use.
+      - Actively engage in the front-end community by participating in meetups (Prague, Berlin, Amsterdam).
+      - Additionally, I've taken a role in organizing meetups for front-end enthusiasts within our company, nurturing a culture of continuous learning and teamwork. This responsibility has offered me an invaluable chance to both expand my skills and enrich our team's shared knowledge.
 
+  - role: Front-end Lead Developer
+    company: Yachting.com
+    from: 2022-10
+    to:
+    note: I've risen to the opportunity to become the leader of the smaller Front-end team. I've been in charge of growing the front-end team, as well as maintaining a consistent technical vision.
+    highlights:
+      - Led the overhaul of our core business product while developing three complementary projects that enhance our main offering's ecosystem.
+      - Enhanced web application for SEO optimization and accessibility, ensuring wider reach and usability.
+      - Played a key role in the recruitment process, conducting interviews to identify and onboard talent aligned with our technical needs and company culture.
+      - Driven the adoption of modern front-end stack. We also made use of TSLint, Prettier and Jest to improve the quality of our code.
 
   - role: Front-end Developer
-    company: Actum Digital
-    from: 2021-04
-    to: 2022-01
-    note: I have worked on a project offering yacht rental. I used WordPress extensively, developing a custom theme for it, and integrating it with other tools.
+    company: Yachting.com
+    from: 2021-03
+    to: 2022-10
+    note: I was hired as one of the first internal front-end developers. I've worked on developing new features and maintaining the existing codebase.
     highlights:
       - I work as a productive and positive team member to design, code, test, report, and debug operations.
-      - Managed front-end development and workflow processes. (Project was developed on React.js with Flow).
+      - Managed front-end development and workflow processes.
       - Successfully identified, diagnosed and fixed web application problems.
       - Helped to achieve a consistent look and visual theme across the web by promoting uniform fonts, formatting, images, layout, creating new components and improving existing ones.
       - Worked to assess competing web sites in regards to content,look and feel.
@@ -85,7 +112,7 @@ experience:
     note: I spent a lot of time working on smaller web dev projects. An occasional website for a friend of a friend.
     highlights:
       - Learned the basics of lots of non-development skills. Learning how to manage my time and simple project management was invaluable in my professional career later.
-      - Worked with lots of various technologies. I've learned how to manage DNS and Linux servers and worked on applications written in PHP, JavaScript, and Python.
+      - Worked with lots of various technologies.
 
 languages:
   - name: English
