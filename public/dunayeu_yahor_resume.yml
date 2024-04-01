@@ -28,8 +28,8 @@ skills:
       - Vite
       - Sitecore JSS
       - Styled Components
-      - Tailwind CSS
       - SCSS
+      - Tailwind CSS
       - Jest
       - Flow
   - name: Web Accessibility
