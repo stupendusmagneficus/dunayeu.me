@@ -1,6 +1,6 @@
 # dunayeu.me
 
-Code for my personal website, [dunayeu.me](https://dunayeu.com/)
+Code for my personal website, [dunayeu.me](https://yadunayeu-me.vercel.app/)
 
 Features:
 * [x] About me page 

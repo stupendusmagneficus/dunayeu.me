@@ -24,7 +24,7 @@ Inspiring quote brought by [lipsum.com](https://lipsum.com/):
 
 ### Links and images
 
-You're visiting <https://dunayeu.me>
+You're visiting <https://yadunayeu-me.vercel.app/>
 
 #### Reference-style links
 
