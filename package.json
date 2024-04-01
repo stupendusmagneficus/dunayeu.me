@@ -42,5 +42,8 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": "12.15.0"
+  }
 }
