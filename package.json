@@ -7,7 +7,7 @@
     "format": "prettier ./*.{js,ts,tsx} components/**/*.{ts,tsx} pages/**/*.{ts,tsx} --write",
     "lint": "tslint --project tsconfig.json components/**/*.{ts,tsx} pages/**/*.{ts,tsx}",
     "dev": "cross-env NODE_ENV=development node index.js",
-    "build": "next build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "export": "rimraf out && next build && next export",
     "start": "cross-env NODE_ENV=production node index.js"
   },
@@ -42,5 +42,8 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.x"
+  }
 }
