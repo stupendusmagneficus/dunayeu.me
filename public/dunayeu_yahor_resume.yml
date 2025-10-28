@@ -6,14 +6,17 @@ website: https://yadunayeu-me.vercel.app/
 location: Prague, Czech republic
 dob: 07.02.1996
 photo: https://dunayeu.me/profile/full.jpg
-intro: I am a software developer at the beginning of my career.
-  My goal is to get huge real-world experience and build a professional career in this field. I am self-motivated and eager to learn. I'm most familiar with __TypeScript__, __React__, __Next.js__, __Azure DevOps__. I'm passionate about programming and eager to learn.
+intro: I’m a Front-end Developer with over 5 years of professional experience.
+  My goal is to gain deep, real-world expertise and continue building a strong, impactful career in modern web development. I’m self-motivated, curious, and passionate about creating high-quality, user-focused applications.
+  I specialize in __TypeScript__, __React__, __Next.js__, __Turbo__ and __Azure DevOps__, and I’m always eager to learn new technologies and improve my craft.
 about: |
-  Hello! My name is Yahor, and I'm a Front-end developer. For me, this role is more than just a job—it's a calling. I'm deeply passionate about software development, open-source technologies, and continuously exploring new challenges.
-    
-  My main focus is to develop complex applications and build a professional career in this field.
+  Hello! My name is Yahor, and I'm a Front-end Developer.
+  For me, this role is more than just a job — it’s something I truly care about. I’m passionate about building accessible, efficient web applications, exploring new technologies, and constantly improving my skills.
   
-  I have a solid background in TypeScript, React, and Next.js, and I've also worked with Azure DevOps. This gives me a good set of skills for handling various web development tasks. I love programming and I'm always eager to learn more, which helps me keep up with new technology trends.
+  My focus is on developing complex, high-quality applications and growing as a professional in the field.
+  I have strong experience with TypeScript, React, and Next.js, and I’ve also worked with Azure DevOps for CI/CD and project management. This combination allows me to handle a wide range of front-end development challenges efficiently.
+  
+  I genuinely love programming and continuous learning — staying curious helps me adapt quickly and stay ahead of new trends in modern web development.
 skills:
   - name: Front-end development
     note: I've spent all of my career doing this. Naturally, I consider this is my top skill.
@@ -22,6 +25,7 @@ skills:
       - Next.js
       - React
       - TypeScript
+      - Turbo
       - Redux
       - MobX
       - Webpack
@@ -64,6 +68,9 @@ projects:
     note: For my personal project, I utilized React, TypeScript, and Next.js, leveraging these technologies to creat a robust and scalable application.
 
 certifications:
+  - name: GitHub Foundations
+    link: https://learn.microsoft.com/en-us/users/yahordunayeu-3247/credentials/e728ff6a0b94a01e
+    note: This certification provides a foundational understanding of Git and GitHub, including core concepts of version control, repository management, and collaborative software development. It covers essential topics such as branching, committing, merging, and pull requests, as well as issue tracking and project workflows using GitHub tools and best practices.
   - name: AZ-900 Microsoft Azure Fundamentals
     link: https://learn.microsoft.com/en-us/users/YahorDunayeu-3247/credentials/48987D08536CDED
     note: This certification provides a foundational understanding of cloud services, specifically those offered by Microsoft Azure. It covers basic cloud concepts, Azure services, Azure workloads, security and privacy in Azure, as well as Azure pricing and support.

@@ -14,8 +14,6 @@ Features:
 * [x] Post content: parse markdown
 * [x] Post content: make it look nice
 * [x] Post content: code with synthax highlight
-* [ ] Blog: pagination
-* [ ] Blog: search by tag with autocomplete
 * [x] Contact: link to linkedin
 
 Technicalities:
